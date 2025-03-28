@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name": "Open New Window",
+	"version": "0.5",
+	"description": "Opens a new window",
+	"permissions": ["windows"],
+	"action": {
+		"default_title": "Open new window",
+		"default_icon": {
+			"16": "link16.png",
+			"128": "link128.png"
+		}
+	},
+	"icons": {
+		"16": "link16.png",
+		"128": "link128.png"
+	},
+	"background": {
+		"service_worker": "background.js"
+	}
+}
